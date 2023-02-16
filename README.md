@@ -10,5 +10,5 @@ For example:
 >>> submission2 = ’my lazy dog has eaten my homework’
 
 >>> compare_subs(submission1, submission2)
-
-[’ lazy dog’, 20, 27]
+>>> 
+>>> [’ lazy dog’, 20, 27]
