@@ -5,10 +5,12 @@ a list containing: [longest common substring, the similarity score for submissio
 The percetage is rounded to the nearest integer
 
 For example:
->>> submission1 = ’the quick brown fox jumped over the lazy dog’
->>> 
->>> submission2 = ’my lazy dog has eaten my homework’
->>> 
->>> compare_subs(submission1, submission2)
->>> 
->>> [’ lazy dog’, 20, 27]
+```
+submission1 = ’the quick brown fox jumped over the lazy dog’ 
+submission2 = ’my lazy dog has eaten my homework’
+compare_subs(submission1, submission2) 
+
+# result
+[’ lazy dog’, 20, 27]
+```
+Therefore, the longest common substring is " lazy dog" and it occupies 20% of submission1 and 27% of submission2
